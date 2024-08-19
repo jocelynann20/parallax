@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;700&display=swap');
+
+:root{
+--color: #333; 
+}
+
+body {
+  font-family: 'Red Hat Text', sans-serif;
+}
+
+.container {
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://img.freepik.com/free-psd/garden-flowers-wooden-table-background-generative-ai_587448-2201.jpg?t=st=1724077774~exp=1724081374~hmac=b0db97578e2c9b23594e4eea0e26d72d343cf3171aba09c9f504f7e5839017f6&w=1060);
+  background-size: cover;
+  background-position: center;
+  
+  background-attachment: fixed;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+}
+
+.container p {
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.second p {
+  max-width: 52ch;
+  line-height: 1.5;
+  padding: 1em;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  background-color: var(--color);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 0.3em;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+}
+
+.blank,
+.other {
+  width: 100%;
+  min-height: 60vh;
+  background-color: var(--color);
+}
+
+.second {
+  background-image:url(https://img.freepik.com/free-photo/beautiful-blurred-background-ai-generated-image_587448-1373.jpg?t=st=1724077797~exp=1724081397~hmac=e4e2b3b4714340f85b95c6b4291880aaba9491907bd107debbfae45b43ac61d2&w=1060);
+  background-attachment: fixed;
+  height: 1200px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 1em;
+}
+
+.card > a {
+  margin-bottom: 2em;
+}
+
+.item {
+  display: flex;
+  max-width: 320px;
+  background-color: white;;
+  flex-direction: column;
+  align-items: center;
+  border-radius: .5em;
+  -webkit-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  -moz-box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+  box-shadow: 0px 29px 38px -15px rgba(0,0,0,0.43);
+}
+
+.img {
+  width: 90%;
+  height: 200px;
+  background-color: lightgrey;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
+  border-radius: .3em;;
+}
+
+.img-first {
+  background-image: url(https://img.freepik.com/free-photo/pretty-orchid-black_23-2147759054.jpg?t=st=1724078286~exp=1724081886~hmac=3f2efff3e2b03ce12cb0aab2185cd56bc3217e6920b2f3f34c1ecdc9f26659e1&w=360);
+}
+
+.img-second {
+  background-image: url(https://img.freepik.com/free-photo/beautiful-yellow-lily-flower_23-2148875535.jpg?t=st=1724078078~exp=1724081678~hmac=247635e12142ccc60240180cf000d245838c033900bd4b9f967ac141af6a70cd&w=900);
+}
+
+.img-third {
+  background-image: url(https://img.freepik.com/free-photo/yellow-flower-black_23-2147759050.jpg?t=st=1724078224~exp=1724081824~hmac=c81473ce677e3451b4a9407e0c94fe752134f6299462f62bd68807b34f5efb22&w=360);
+}
+
+.second {
+  flex-direction: row;
+  gap: 1.6em;
+}
